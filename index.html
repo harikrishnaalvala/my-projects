@@ -17,29 +17,61 @@
             <p class="home-page-discription">These are a few of my Static Website projects that I have developed
                 using HTML, CSS and Bootstrap</p>
             <div class="d-flex flex-row justify-content-center">
-                <img class="home-page-image" onclick="display('sectionadvancestechnologies')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" />
+                <img class="home-page-image" onclick="display('sectionmovies')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c3-img.png" />
                 <img class="home-page-image" onclick="display('sectiondiwali')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" />
             </div>
             <div class="d-flex flex-row justify-content-center">
-                <img class="home-page-image" onclick="display('sectionmeals')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" />
-                <img class="home-page-image" onclick="display('sectionnews')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" />
+                <img class="home-page-image" onclick="display('sectiongoa')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-more2-img.png" />
+                <img class="home-page-image" onclick="display('sectionconference')" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png" />
             </div>
         </div>
     </div>
 
-    <div id="sectionadvancestechnologies">
-        <div class="advancedtechnologies-bg-container d-flex flex-column justify-content-end">
-            <div class="advancedtechnologies-card">
-                <h1 class="advancedtechnologies-heading">Advanced Technologies</h1>
-                <p class="advancedtechnologies-discription">
-                    Machinery and equipment developed from the application of scientific
-                    knowledge.
-                </p>
-                <button class="advancedtechnologies-button">Learn More</button>
-                <button class="button btn btn-primary" onclick="display('sectionhomepage')">
-                    Back</button>
-
+    <div id="sectionmovies">
+        <div class="movie-bg-container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c1-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c2-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/nemo-c3-img.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
+            <div class="name-container d-flex flex-row justify-content-between">
+                <h1 class="movie-heading">Finding Nemo</h1>
+                <button class="button">watch now</button>
+            </div>
+            <p class="movie-paragraph">
+                A clown fish,is overly cautious with his son, Nemo who has a foreshortened fin.When Nemo swims too close to the surfce to prove himself, he is caught by a diver,and horrified Marlinn must set
+                out to Find him.A blue reef fish named dory joins marlin and complicates the encounters with sharks,jellyfish,and a host of ocean dangers. meanwhile,nemo plots his escape from a dentists fish tank.</P>
+            <h5>similar movies</h5>
+
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/finding-dory-img.png" class="movie-card-image" />
+
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/bugslife-img.png" class="movie-card-image" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ratatouille-movie-img.png" class="movie-card-image" />
+
+        </div>
+        <div class="d-flex flex-row justify-content-center mt-3 mb-3">
+            <button class="btn btn-primary " onclick="display('sectionhomepage')">Back</button>
         </div>
     </div>
 
@@ -76,40 +108,97 @@
         </div>
     </div>
 
-    <div id="sectionmeals">
-        <div class="meals-bg-container d-flex flex-column justify-content-end">
-            <div class="meals-card">
-                <h1 class="meals-heading">Happy Meals</h1>
-                <p class="meals-discription">
-                    Discover the best foods over the 1,000 restaurants
-                </p>
-                <button class="meals-button">Book Now</button>
-                <button class="button btn btn-primary" onclick="display('sectionhomepage')">
-                    Back</button>
+    <div id="sectiongoa">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-c1-img.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-c2-img.png" class="d-block w-100" alt="..." />
+                </div>
 
+                <div class="carousel-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-c3-img.png" class="d-block w-100" alt="..." />
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="bottom-section">
+            <h1 class="sub-heading">About</h1>
+            <p class="bottom-paragraph">goa is known for its striking landscape,famous beaches in india.astounding monuments and churches and busting goa nightlife.goa is one of the most visited tourist places in India especially in weekends as it is not very far from Mumbai and having panaji as its capital and Vasco da Gama as the largest city it attracts a large number of tourists fund all over the world round the year</p>
+            <h1 class="sub-heading">more pictures</h1>
+            <div class="d-flex flex-row ">
+                <img src=" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-more1-img.png" class="goa-card-image" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-more2-img.png" class="goa-card-image" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-more3-img.png" class="goa-card-image" />
+            </div>
+
+            <h1 class="sub-heading">Videos</h1>
+            <div class="d-flex flex-row">
+                <div class="embed-responsive embed-responsive-1by1 goa-video-container">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NFalCkZAClY?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-1by1 goa-video-container">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4irzfMfTmM8?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="embed-responsive embed-responsive-1by1 goa-video-container">
+                    <iframe class="embed-responsive-item " src="https://www.youtube.com/embed/OJu0gjzsvQE?rel=0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <div class="d-flex flex-row justify-content-center mt-3 mb-3">
+                <button class="btn btn-primary " onclick="display('sectionhomepage')">Back</button>
             </div>
         </div>
     </div>
-    <div id="sectionnews">
-        <div class="news-bg-container d-flex flex-column justify-content-end">
-            <div class="news-card">
-                <p class="news-category">NEWS OF THE DAY</p>
-                <h1 class="news-title">
-                    All educational institutions in Assam to reopen from November 2
-                </h1>
-                <p class="news-description">
-                    Uttar Pradesh's Gautam Buddh Nagar recorded 107 new Covid-19 cases
-                    on Saturday, pushing the district's infection tally to 15,803,
-                    official data showed. The number of active cases came down further
-                    to 1,384 from 1,477 on Friday and 1,523 on Thursday, according to
-                    the data released by the UP Health Department for a 24-hour period.
-                </p>
-                <button class="news-button">Read more</button>
-                <button class="btn btn-primary" onclick="display('sectionhomepage')">
-                    Back
-                </button>
+    <div id="sectionconference">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vKJ6nXE_6Hc?rel=0 " allowfullscreen></iframe>
+        </div>
+        <div class="top-section">
+            <h1 class="conference-heading mt-3">The Things Conference</h1>
+            <p class="conference-paragraph">Join Asia`s Largest Conference on LoRaWAN</p>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="conference-starts-container">
+                    <h1 class="conference-count ">1400+</h1>
+                    <p class="conference-count-paragraph ">Atendees</p>
+                </div>
+                <div class="conference-starts-container">
+                    <h1 class="conference-count ">100+</h1>
+                    <p class="conference-count-paragraph ">Workshos</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="conference-starts-container">
+                    <h1 class="conference-count ">120+</h1>
+                    <p class="conference-count-paragraph ">Speakers</p>
+                </div>
+                <div class="conference-starts-container">
+                    <h1 class="conference-count ">10+</h1>
+                    <p class="conference-count-paragraph ">Countries</p>
+                </div>
+            </div>
+            <div class="text-center">
+
+
+                <button class="btn btn-primary text-center" onclick="display('sectionhomepage')">Back</button>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
